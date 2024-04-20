@@ -16,6 +16,7 @@ function handleSelectSquare(){
         <ol id="players" className="highlight-player">
           <Player initialName="Player 1" symbol="X" isActive={activePlayer === "X"}/>
           <Player initialName="Player 2" symbol="O" isActive={activePlayer === "O"}/>
+          <Player></Player>
         </ol>
         <GameBoard selectSquare={handleSelectSquare} activePlayerSymbol={activePlayer}/>
       </div>
